@@ -115,7 +115,7 @@ void adjust_balance_1(avl_t **root, avl_t *node)
  * @root: A pointer to the root of the AVL tree.
  * @value: The value of the node to remove.
  *
- * Return: The new root node, 
+ * Return: The new root node,
  *         otherwise NULL.
  */
 avl_t *avl_remove(avl_t *root, int value)
